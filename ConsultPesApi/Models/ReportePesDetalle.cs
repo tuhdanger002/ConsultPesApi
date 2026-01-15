@@ -1,0 +1,48 @@
+﻿using System.Text.RegularExpressions;
+
+namespace ConsultPesApi.Models
+{
+    public class ReportePesDetalle
+    {
+        public int REPORTE_ID { get; set;}
+        public string NUM_PES { get; set;} 
+        public DateTime FECHA_SOLICITUD { get; set;}
+        public string RESPONSABLE { get; set;}
+        public string USUARIO { get; set;}
+        public DateTime FECHA_INICIO { get; set; }
+        public DateTime FECHA_FIN { get; set; }
+        public string ALCANCE { get; set; }
+        public string ALIMENTADOR { get; set; }
+        public string CAUSA { get; set; }
+        public string DIRECCION { get; set; }
+
+        public string OBSERVACIÓN { get; set; }
+        public int CANTIDAD_CLIENTES { get; set; }
+        public decimal Potencia_KVA { get; set; }
+        public int Id { get; set; }
+        public string Nuevo { get; set; }
+        public decimal Clients { get; set; }
+        public string Grupo { get; set; }
+        public string Municipio { get; set; }
+        public decimal Potencia { get; set; }
+        public string Provincia { get; set; }
+        public string SE { get; set; }
+        public string Sector { get; set; }
+        public string ZDI { get; set; }
+        public string Apoyo_Adjunto { get; set; }
+        public string Apoyo_Completo { get; set; }
+        public string LINEA_VIVA { get; set; }
+        public bool IsDelete { get; set; }
+        public string Padre_Inmediato { get; set; }
+        public decimal PORCIENTO_AFECTADO { get; set; }
+        public decimal PORCIENTO_AFECTADO_PADRE { get; set; }
+        public string Nombre_Usuario { get; set; }
+        public DateTime FECHA_INTERRUPCION { get; set; }
+        public decimal HORAS_INTERRUPCION { get; set; }
+        public DateTime FECHA_PES { get; set; }
+        public decimal HORAS_PROGRAMADAS { get; set; }
+        public string NOTAS { get; set; }
+        public DateTime FueraFechaAprobacion { get; set; }
+
+    }
+}
